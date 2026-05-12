@@ -166,7 +166,7 @@ export function SpotlightTour({
 
   const primaryLabel = isLast
     ? tourId === "board" && !onboardingComplete
-      ? "Go to my board"
+      ? "Go to my Learning Plan"
       : lastStepPrimaryLabel
     : "Next";
 

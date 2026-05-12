@@ -311,7 +311,7 @@ export function ProfilePage() {
 
           {earnedCount === 0 && (
             <p className="mt-10 text-center text-sm text-stone-500">
-              Complete tasks on your board to start earning achievements.
+              Complete tasks on your Learning Plan to start earning achievements.
             </p>
           )}
 

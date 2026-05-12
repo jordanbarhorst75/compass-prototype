@@ -20,7 +20,7 @@ export function BottomNav() {
         {({ isActive }) => (
           <>
             <LayoutGrid className={`h-6 w-6 ${isActive ? "text-amber-700" : ""}`} strokeWidth={isActive ? 2.25 : 1.75} />
-            <span>Board</span>
+            <span className="max-w-[5.5rem] text-center leading-tight">Learning Plan</span>
           </>
         )}
       </NavLink>

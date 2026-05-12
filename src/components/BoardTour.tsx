@@ -4,7 +4,7 @@ import { SpotlightTour, type SpotlightTourStep } from "./SpotlightTour";
 const STEPS: readonly SpotlightTourStep[] = [
   {
     title: "Your growth journey, made visible.",
-    body: "Compass helps you grow as a teacher — one small step at a time. Here's how your board is organized.",
+    body: "Compass helps you grow as a teacher — one small step at a time. Here's how your Learning Plan is organized.",
     emoji: "🧭",
   },
   {

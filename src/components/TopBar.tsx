@@ -32,7 +32,7 @@ export function TopBar() {
     return () => window.removeEventListener("keydown", onKey);
   }, [menuOpen]);
 
-  const replayBoardTour = () => {
+  const replayLearningPlanTour = () => {
     setMenuOpen(false);
     startGuideTour("board");
   };
@@ -90,12 +90,12 @@ export function TopBar() {
             <button
               type="button"
               role="menuitem"
-              onClick={replayBoardTour}
+              onClick={replayLearningPlanTour}
               className="flex w-full items-start gap-3 rounded-xl px-3 py-3 text-left text-sm text-stone-800 transition hover:bg-amber-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
             >
               <Clapperboard className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" aria-hidden />
               <span>
-                <span className="block font-semibold">Replay board tour</span>
+                <span className="block font-semibold">Replay Learning Plan tour</span>
                 <span className="mt-0.5 block text-xs font-normal leading-snug text-stone-600">
                   Know, See, Try, Apply, and task details
                 </span>

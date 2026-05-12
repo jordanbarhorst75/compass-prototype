@@ -14,7 +14,7 @@ export function ActivityPage() {
           className="rounded-full bg-amber-600 px-5 py-2 text-sm font-semibold text-white"
           onClick={() => navigate("/board")}
         >
-          Back to board
+          Back to Learning Plan
         </button>
       </div>
     );

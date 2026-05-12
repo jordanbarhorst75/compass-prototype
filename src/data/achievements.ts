@@ -281,7 +281,7 @@ const TIER3_STATIC: AchievementDef[] = [
   { id: "committed", name: "Committed", description: "Active 30 days in a row.", tier: 3, icon: "flame", isSecret: false },
   { id: "streak_saved", name: "Life Happens", description: "Streak protected during a week with no uploads.", tier: 3, icon: "shield", isSecret: true },
   { id: "comeback", name: "Comeback", description: "Returned after 14+ days away and completed an activity.", tier: 3, icon: "rotate", isSecret: true },
-  { id: "coached", name: "Coached", description: "Had a coach-assigned task on your board.", tier: 3, icon: "userCheck", isSecret: false },
+  { id: "coached", name: "Coached", description: "Had a coach-assigned task on your Learning Plan.", tier: 3, icon: "userCheck", isSecret: false },
   { id: "assigned", name: "Assigned", description: "Completed a coach-assigned task.", tier: 3, icon: "userCheck", isSecret: false },
   { id: "program_strong", name: "Program Strong", description: "Completed an admin-prescribed task.", tier: 3, icon: "clipboard", isSecret: false },
 ];
