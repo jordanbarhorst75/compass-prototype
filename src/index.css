@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-compass-bg: oklch(0.985 0.01 85);
+  --color-compass-surface: oklch(1 0 0);
+  --color-compass-ink: oklch(0.22 0.02 260);
+  --color-compass-muted: oklch(0.5 0.02 260);
+  --color-compass-accent: oklch(0.62 0.14 45);
+  --color-compass-accent-soft: oklch(0.95 0.04 85);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-compass-bg);
+  color: var(--color-compass-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
